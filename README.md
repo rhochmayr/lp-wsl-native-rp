@@ -1,8 +1,3 @@
----
-description: >-
-  Instructions for setting up a Resource Provider (node) on WSL2
----
-
 # Installing a WSL Node
 
 ## Prerequisites
