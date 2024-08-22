@@ -1,5 +1,17 @@
 # Installing a WSL Node
 
+To set up your WSL environment for using Lilypad with GPU support, you need to install a few components. This guide will walk you through installing WSL and Docker Desktop to provide you with an Ubuntu instance for a Lilypad GPU provider node. You will also use a script to automatically setup Bacalhau, and Lilypad in that instance.
+
+## Table of Contents
+
+1. [Prerequisites](#prerequisites)
+2. [Setup](#setup)
+    1. [Install WSL](#install-wsl)
+    2. [Install Docker Desktop](#install-docker-desktop)
+    3. [Configure Docker Desktop](#configure-docker-desktop)
+    4. [Setup Resource Provider](#setup-resource-provider)
+
+
 ## Prerequisites
 
 * Windows 10 22H2 or later
@@ -7,9 +19,9 @@
 * [Nvidia drivers](https://www.nvidia.com/en-us/drivers/)
 * Wallet Private Key
 
-## Installation
+## Setup
 
-To set up your WSL environment for using Lilypad with GPU support, you need to install a few components. This guide will walk you through installing WSL and Docker Desktop to provide you with an Ubuntu instance for a Lilypad GPU provider node. You will also use a script to automatically setup Bacalhau, and Lilypad in that instance.
+The setup is very similar to the procedure for setting up a GPU provider node on a Linux machine. The main difference is that WSL and Docker Desktop will be provding the Ubuntu environment with access to the GPU driver and CUDA libraries, as well as access to docker containers. This means we don't need to install the Nvidia drivers or the Container Toolkit in the Ubuntu instance as that functionality is provided by the Windows host.
 
 ### Install WSL
 
