@@ -9,7 +9,7 @@
 
 ## Installation
 
-To set up your WSL environment for using Lilypad with GPU support, you need to install a few components. This guide will walk you through installing WSL, Docker Desktop, Bacalhau, and Lilypad. You'll also configure systemd to manage these services efficiently.
+To set up your WSL environment for using Lilypad with GPU support, you need to install a few components. This guide will walk you through installing WSL and Docker Desktop to provide you with an Ubuntu instance for a Lilypad GPU provider node. You will also use a script to automatically setup Bacalhau, and Lilypad in that instance.
 
 ### Install WSL
 
