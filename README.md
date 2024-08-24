@@ -110,7 +110,7 @@ This guide is still a work in progress and may be subject to change. If you enco
 
 Following tasks are still pending:
 
-- [ ] Test the ability to process modules
+- [x] Test the ability to process modules
 - [ ] Work out ability to run multiple GPU providers on the same machine
 - [ ] Instructions to setup custom WSL instances
 - [ ] Check if Docker Desktop Resource Saver can be enabled
